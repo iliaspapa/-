@@ -1,0 +1,18 @@
+<?php include "header.php";
+?>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+    <center>
+        <div class="dropdown">
+            <button type = "submit" class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+                <h1>choose table</h1>
+            </button>    
+            <div class="dropdown-menu">
+                        <a class="dropdown-item" href="book_u_html.php"><h3>book</h3></a>
+                        <a class="dropdown-item" href="borrows_u_html.php"><h3>borrows</h3></a>
+                        <a class="dropdown-item" href="member_u_html.php"><h3>member</h3></a>
+                        <a class="dropdown-item" href="category_u_html.php"><h3>view category</h3></a>                        
+            </div>
+        </div>
+    </center>   
+</body>
+</html>
